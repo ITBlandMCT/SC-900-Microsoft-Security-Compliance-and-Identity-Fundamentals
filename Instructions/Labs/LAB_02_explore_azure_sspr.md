@@ -33,23 +33,23 @@ In this task you, as the admin, will walk through the some of the available conf
 
 1. The properties for self service password reset are displayed. Select the information icon next to where it says **Self services password reset enabled** to view what the description. Ensure that **Selected** is highlighted in blue. Now put your cursor over the information icon next to where it says **Select group** and note that it says, "Defines the group of users who are allowed to reset their own passwords." You must include users in the group, you can’t individually select users. Notice that there is a group already listed - SSPRSecurityGroupUsers (this group was preconfigured as part your Microsoft 365 tenant). Lastly, note the blue information box, "These settings only apply to end users in your organization. Admins are always enabled for self-service password reset and are required to use two authentication methods to reset their password."
 
-1. From the left navigation panel of Password reset, select **Authentication Methods**.
+1. From the left navigation panel of the Password reset \| Properties page, select **Authentication Methods**.
 
 1. In the Number of methods required to rest, select **1**. Note the information box on the screen.
 
 1. Notice the different methods available to users.  **Email** and **Mobile phone (SMS only)** should already be checked; if not, select them.
 
-1. From the left navigation panel of Password reset, select **Registration**.  
+1. From the left navigation panel of the Password reset \| Authentication methods page, select **Registration**.  
 
 1. Ensure the setting to Require users to register when signing in is set to **Yes**.  Leave the Number of days before users are asked to reconfirm their authentication information, to the default of 180.   Take note of the information box on the page.
 
-1. From the left navigation panel of Password reset, select **Notifications**.  
+1. From the left navigation panel of the Password reset \| Registration page, select **Notifications**.  
 
 1. Ensure the setting to Notify users on password resets is set to **Yes**.  Leave the setting for Notify all admins when other admins reset their password to No.
 
 1. Note how the Password reset navigation pane also includes options to view audit logs and Usage & insights.
 
-1. Close the password reset window by selecting the **X** on the top-right corner of the window. This returns you to hte Microsoft Entra admin center.
+1. Close the Password reset \| Notifications page by selecting the **X** on the top-right corner of the window. This returns you to hte Microsoft Entra admin center.
 
 1. Keep the Microsoft Entra window open.
 
@@ -57,9 +57,9 @@ In this task you, as the admin, will walk through the some of the available conf
 
 In this task you, as the admin, will add the user you created in the previous lab exercise to the SSPR security group.
 
-1. Open the browser tab for the home page of the Microsoft Entra Admin center.  
+1. Open the browser tab for the home page of the Microsoft Entra Admin center.  If needed, expand **Identity**.
 
-1. From the left navigation panel, expand **Groups** then select **All groups**.
+1. From the left navigation panel, under Identity, expand **Groups** then select **All groups**.
 
 1. A list of existing groups is displayed. In the Search groups field, enter **SSPR**, then from the search results select **SSPRSecurityGroupUsers**.  It will take you to the configuration option for this group.
 
@@ -128,15 +128,15 @@ In this task you, as the administrator, will briefly view the Audit logs and the
 
 1. You are in Microsoft Entra admin center.  From the left navigation pane, expand the option for **Protection**, then select **Password reset**.
 
-1. From the left navigation pane, select **Audit logs**.  Notice the information available and the available filters.  Also note that you can download logs.  
+1. From the left navigation pane of the Password reset \| Properties page, select **Audit logs**.  Notice the information available and the available filters.  Also note that you can download logs.  
 
-1. Select **Download**.  Note that you can format the download as CSV or JSON.  Close the window by selecting the **X** on the top right corner of the screen.
+1. Select **Download**.  Note that you can format the download as CSV or JSON.  Close the page by selecting the **X** on the top right corner of the screen.
 
-1. From the left navigation pane, select **Usage & insights**.
+1. From the left navigation pane of the Password reset \| Audit logs page, select **Usage & insights**.
 
 1. Notice the information available that pertains to Registration.  Note that it may take time to refresh this data, even after you do a refresh, so it may not yet reflect the registration or usage data from the previous task.
 
-1. From the top of the page select **Usage** to view the number of Self-service password resets and account unlocks by method.  Note that it may take time to refresh this data, even after you do a refresh, so it may not yet reflect the usage data from the previous task.
+1. From the top of the of the Password reset \| Usage & insights page, select **Usage** to view the number of Self-service password resets and account unlocks by method.  Note that it may take time to refresh this data, even after you do a refresh, so it may not yet reflect the usage data from the previous task.
 
 1. Close the open browser tabs.
 
